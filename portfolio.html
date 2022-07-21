@@ -5,36 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>webstudio</title>
-    
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-  rel="stylesheet">
-<link rel="stylesheet" href="./css/style.css">
-  <header class="header">
-    <a href="" class="header-logo link">
-        Web<spam class="header-spam">Studio</spam></a
-      >
-    <nav class="header-nav">
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link link"> Судия </a>
-          </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link link"> Портфолио </a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link"> Контакты </a>
-          </li>
-        </ul>
-      </nav>
-    <a href="emailto:info@devstudio.com" class="header-email link"
-        >info@devstudio.com
-      </a>
-      <a href="tel:+380961111111" class="header-tel link"> +38 096 111 11 11</a>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="" class="header-logo link">
+          Web<spam class="header-spam">Studio</spam></a
+        >
+        <nav class="header-nav">
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link link"> Судия </a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link">
+                Портфолио
+              </a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link"> Контакты </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-connect">
+          <a href="emailto:info@devstudio.com" class="header-email link"
+            >info@devstudio.com
+          </a>
+          <a href="tel:+380961111111" class="header-tel link">
+            +38 096 111 11 11</a
+          >
+        </div>
+      </div>
     </header>
   <main>
     <section class="menu">
+      <div class="container"> 
       <ul class="menu-list list">
         <li class="menu-item">
           <button type="button" class="menu-btn">Все</button>
@@ -52,6 +65,7 @@
           <button type="button" class="menu-btn">Маркетинг</button>
         </li>
       </ul>
+      
       <ul class="projects-list list">
         <li class="projects-item">
             <img
@@ -144,32 +158,39 @@
           <p class="projects-skop">Приложение</p>
         </li>
       </ul>
+      </div>
     </section>
   </main>
     <footer class="footer">
-      <a href="" class="footer-logo link">Web<spam class="footer-spam">Studio</spam></a>
-      <address>
-        <ul class="footer-list list">
-          <li class="footer-item">
-            <a
-              href="https://goo.gl/maps/xFb1QxKYaWwcLje76"
-              target="_blank"
-              class="footer-address link"
-            >
-              г. Киев, пр-т Леси Украинки, 26
-            </a>
-          </li>
-          <li>
-            <a href="emailto:info@devstudio.com" class="footer-email link"
-              >info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="footer-tel link">
-              +38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <div class="logo">
+          <a href="" class="footer-logo link"
+            >Web<spam class="footer-spam">Studio</spam></a
+          >
+        </div>
+        <address>
+          <ul class="footer-list list">
+            <li class="footer-item">
+              <a
+                href="https://goo.gl/maps/xFb1QxKYaWwcLje76"
+                target="_blank"
+                class="footer-address link"
+              >
+                г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li>
+              <a href="emailto:info@devstudio.com" class="footer-email link"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="footer-tel link">
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
 </html>
