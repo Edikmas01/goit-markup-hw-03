@@ -32,7 +32,7 @@ button {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red;*/
 }
 
 body {
@@ -63,6 +63,7 @@ body {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
 .header-list {
@@ -143,7 +144,7 @@ body {
 .hero {
   background-color: #2f303a;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -215,10 +216,11 @@ body {
 }
 
 /*----------gallery-------*/
+.gallery {
+  padding-bottom: 94px;
+}
 
 .gallery-title {
-  padding-left: 396px;
-  padding-right: 396px;
   margin-bottom: 50px;
 }
 
@@ -246,7 +248,9 @@ body {
 .team-item {
   width: calc((100% - 90px) / 4);
 }
-.team-job {
+
+.team-div {
+  margin-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -258,7 +262,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-color);
 
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -276,7 +279,7 @@ body {
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
-  padding-bottom: 161px;
+  padding-bottom: 60px;
 }
 
 .logo {
@@ -342,19 +345,21 @@ body {
   color: var(--accent-color);
 }
 
+.footer-item {
+  margin-bottom: 9px;
+}
 .footer-email {
   margin-bottom: 9px;
 }
-
 /*------------ PORTFOLIO.HTML------ --*/
 /*-- menu--*/
 
 .menu-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 8px;
-  padding-right: 279px;
-  padding-left: 280px;
+  margin-bottom: 56px;
+  padding: 0;
 }
 
 .menu-btn {
@@ -367,7 +372,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-color);
   padding: 6px 22px;
-  margin-bottom: 56px;
 }
 
 .menu-btn:hover,
@@ -404,4 +408,10 @@ body {
 .projects-item {
   width: calc(100% / 3 - 30px);
   margin: 15px;
+  border: 1px solid #eeeeee;
+}
+
+.projects-div {
+  padding: 0px 24px 20px 24px;
+  margin-top: 20px;
 }
